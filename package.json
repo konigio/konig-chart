@@ -1,0 +1,26 @@
+{
+  "name": "konig-chart",
+  "version": "1.0.0",
+  "description": "A data visualization library",
+  "main": "index.js",
+  "dependencies": {
+    "fusioncharts": "^3.12.1",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konigio/konig-chart.git"
+  },
+  "author": "Elakiya Udhayanan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/konigio/konig-chart/issues"
+  },
+  "homepage": "https://github.com/konigio/konig-chart#readme"
+}
