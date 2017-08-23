@@ -1,1 +1,1 @@
-require('./edw');
+EDW = require('./edw');

@@ -4,8 +4,7 @@
   "description": "A data visualization library",
   "main": "index.js",
   "dependencies": {
-    "fusioncharts": "^3.12.1",
-    "webpack": "^3.5.5"
+    "fusioncharts": "^3.12.1"
   },
   "devDependencies": {
     "webpack": "^3.5.5"
