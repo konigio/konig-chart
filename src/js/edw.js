@@ -93,17 +93,30 @@ function renderMultiSeriesLineChart(chartRequest) {
 	var chartProperties = {
 			"caption" : chartRequest.caption,
 			"xAxisName" : chartRequest.xAxisName,
-			"yAxisName" : chartRequest.yAxisName
+			"yAxisName" : chartRequest.yAxisName,
+			"paletteColors": "#0075c2,#1aaf5d",
+			"bgcolor": "#ffffff",
+			"showBorder": "0",
+			"showShadow": "0",
+			"showCanvasBorder": "0",
+			"usePlotGradientColor": "0",
+			"captionFontSize": "14",
+			"showAxisLines": "0",
+			"showAlternateHGridColor": "0",
+			"divlineThickness": "1",
+			"divLineIsDashed": "1",
+			"divLineDashLen": "1",
+			"showValues": "0"
 	};
 	var lineChart = new FusionCharts({
-		type : 'bar2d',
+		type : 'msline',
 		renderAt : chartRequest.elementId,
 		width : chartRequest.width==null?'300':chartRequest.width,
 		height : chartRequest.height==null?'300':chartRequest.height,
 		dataFormat : 'json',
 		dataSource : {
 			chart : chartProperties,
-			categories : chartRequest.data.categories,
+			categories : chartRequest.dataset.categories,
 			dataset : chartRequest.dataset.dataset
 		},
 		"events": {
