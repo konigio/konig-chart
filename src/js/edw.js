@@ -132,6 +132,8 @@ function renderPieChart(chartRequest) {
 			"caption" : chartRequest.caption,
 			"xAxisName" : chartRequest.xAxisName,
 			"yAxisName" : chartRequest.yAxisName,
+			"showHoverEffect": "1",
+			"plottooltext": "$label, $value , $percentValue",
 			"bgColor": "#ffffff",
 			"showBorder": "0",
 			"use3DLighting": "0",
