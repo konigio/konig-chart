@@ -10,7 +10,7 @@ require("fusioncharts/maps/fusioncharts.arunachalpradesh")(FusionCharts);
 require("fusioncharts/maps/fusioncharts.assam")(FusionCharts);
 require("fusioncharts/maps/fusioncharts.bihar")(FusionCharts);
 require("fusioncharts/maps/fusioncharts.chandigarh")(FusionCharts);
-require("fusioncharts/maps/fusioncharts.chattisgarh")(FusionCharts);
+require("fusioncharts/maps/fusioncharts.chhattisgarh")(FusionCharts);
 require("fusioncharts/maps/fusioncharts.dadraandnagarhaveli")(FusionCharts);
 require("fusioncharts/maps/fusioncharts.damananddiu")(FusionCharts);
 require("fusioncharts/maps/fusioncharts.delhi")(FusionCharts);
